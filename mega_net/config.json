@@ -1,0 +1,51 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": ""
+  },
+  "text": {
+    "more": "",
+    "intro": "2021. június 1. és szeptember 30. között 356 szereplőt azonosítottunk a Facebookon a kormánypárti információs ökoszisztéma részeként – ezeket az ábrán csomópontok jelenítenek meg. A csomópontok nagysága relatív jelentőségükre utal a hálózaton belül: minél több oldal hivatkozott rájuk, méretük annak megfelelően nőtt. A hálózat felépítését az élek, vagyis az egyes elemek közötti kapcsolat adja ki: esetünkben ez a médiaforrások közötti hiperhivatkozásokat jelenti. Minél több olyan poszt tűnik fel az egyik oldalon, ami egy másik oldal tartalmát veszi át (share, link) vagy említi meg (tag), a modell annál közelebb húzza őket. A jelen hálózatot 8001 ilyen interakció, azaz él tart össze. Ez az az általunk ismert infrastruktúra, ami meghatározta 2021. harmadik negyedévében a kormánypárti politikai kommunikációt a Facebookon.",
+    "title": "NER Metaverzum: kormánypárti Facebook-oldalak"
+  },
+  "legend": {
+    "edgeLabel": "",
+    "colorLabel": "",
+    "nodeLabel": ""
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Status",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#000",
+      "defaultLabelColor": "#999",
+      "labelThreshold": 20,
+      "defaultLabelHoverColor": "#999",
+      "defaultLabelSize": 14,
+    "font":"Encode Sans",
+        "font-style":"Medium"
+    },
+    "graphProperties": {
+      "maxEdgeSize": 15,
+      "minEdgeSize": 0.6,
+      "minNodeSize": 1,
+      "maxNodeSize": 10
+    },
+    "mouseProperties": {
+      "maxRatio": 3,
+      "minRatio": 1
+    }
+  }
+}
